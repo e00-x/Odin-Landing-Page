@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* .content{
+    max-width: 960px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center;
+} */
+
+/* WHY DO BOTH LI AND UL NEED THIS RULE FROM THE LIST 
+DECORATION TO DISAPPEAR? THIS WAS PREVIOUSLY WORKING 
+WITH JUST LI */
+li{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #363535;
+}
+
+button{
+    border-radius: 10px;
+}
+
+header{
+    background-color: rgb(5, 5, 59);
+    color: #615959;
+    display: flex;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.left-links{
+    display: flex;
+    justify-content: flex-start;
+    color: antiquewhite;
+    /* align-items: flex-start; */
+}
+
+.right-links{
+    /* justify-content: space-between; */
+    /* flex-direction: column;  */
+    display: flex; 
+    justify-content: flex-end;
+    /* align-items:; */
+    gap: 5px;
+}
+
+body{
+    /* height: 100%; */
+    margin: 0; 
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    /* border-color: red; */
+    /* border: 5px; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* div{ 
+    /* DOES NOT SEEM TO AFFECT ANYTHING  
+    width: 100%;
+    height: 50vh;
+} */
+
+/* div 1 css */
+
+#div1{
+    padding-top: 20px;
+    background-color: rgb(5, 5, 59);
+    display: flex;
+    height: 50vh;
+    color: antiquewhite;
+    /* justify-content: center; */
+}
+
+.divone{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+.divone p {
+    padding: 10px;
+}
+
+/* div1.img{
+    HOW DO YOU CHAIN AN ID AND A SELECTOR 
+    padding-bottom: 20px;
+} */
+
+/* div 2 css */
+
+#div2{
+    background-color: whitesmoke;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divtwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tmp{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+/* div 3 css */
+
+#div3 {
+    background-color: #363535;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divthree{
+    max-width: 600px;
+}
+
+.author{
+    /* display: flex;
+    justify-content: flex-end; */
+    /* align-items: flex-end; */
+    padding-left: 300px;
+}
+
+/* div 4 css */
+
+#div4 {
+    background-color: #615959;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divfour{
+    background-color: rgb(5, 5, 59);
+    border-radius: 10px;
+    color: aliceblue;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.divfour.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.divfour button{
+    align-self: center;
+}
